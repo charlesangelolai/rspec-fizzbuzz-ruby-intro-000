@@ -5,12 +5,12 @@ require_relative './fizzbuzz.rb'
 
 def fizzbuzz(int)
   if int % 3 == 0
-    print "Fizz"
+    return "Fizz"
   elsif int % 5 == 0
-    print "Buzz"
+    return "Buzz"
   elsif int % 5 == 0 && int % 3 == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
   else
-    puts nil
+    return nil
 
 end
